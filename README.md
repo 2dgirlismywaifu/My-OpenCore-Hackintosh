@@ -54,6 +54,8 @@
 | Wireless | Intel® Wi-Fi AC-7250      |
 | Ethernet | Realtek RTL8168H     |
 
+NOTE: Apple drop support Intel skylake, kabylake in macOS 14
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
