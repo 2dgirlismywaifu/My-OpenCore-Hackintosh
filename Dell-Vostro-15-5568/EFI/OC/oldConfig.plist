@@ -224,6 +224,8 @@
                 <true/>
                 <key>EnableWriteUnprotector</key>
                 <true/>
+                <key>FixupAppleEfiImages</key>
+                <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
                 <key>ForceExitBootServices</key>
@@ -1004,6 +1006,8 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <false/>
+                <key>InstanceIdentifier</key>
+                <string></string>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -1038,7 +1042,7 @@
                 <key>DisplayLevel</key>
                 <integer>2147483650</integer>
                 <key>LogModules</key>
-                <string></string>
+                <string>*</string>
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
@@ -1430,7 +1434,7 @@
                 <key>PointerSupport</key>
                 <false/>
                 <key>PointerSupportMode</key>
-                <string></string>
+                <string>ASUS</string>
                 <key>TimerResolution</key>
                 <integer>50000</integer>
             </dict>
@@ -1542,26 +1546,15 @@
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
                 <false/>
+                <key>ShimRetainProtocol</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
                 <false/>
             </dict>
             <key>ReservedMemory</key>
-            <array>
-                <dict>
-                    <key>Address</key>
-                    <integer>268435456</integer>
-                    <key>Comment</key>
-                    <string>HD3000: IGPU memory corruption errata</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Size</key>
-                    <integer>268435456</integer>
-                    <key>Type</key>
-                    <string></string>
-                </dict>
-            </array>
+            <array/>
         </dict>
     </dict>
 </plist>
