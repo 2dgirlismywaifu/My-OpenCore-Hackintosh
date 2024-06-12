@@ -8,6 +8,7 @@
   </a>
 
 <h3 align="center", style="font-size:40px">OpenCore Config Hackintosh</h3>
+<h4 align="center", style="font-size:40px">macOS Sequoia, here we go!!!</h3>
 <p1 align="center", style="font-size:20px">Follow Dortania Guide at <a href="https://dortania.github.io/OpenCore-Install-Guide/">here</p1><br />
   <p2 align="center", style="font-size:20px">
     This is my OpenCore Config for Laptop
